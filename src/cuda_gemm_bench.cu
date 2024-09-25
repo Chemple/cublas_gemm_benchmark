@@ -252,8 +252,7 @@ int main(int argc, char **argv) {
       std::cout << m << ",";
       std::cout << n << ",";
       std::cout << k << ",";
-      std::cout << "n"
-                << ",";
+      std::cout << "n" << ",";
       std::cout << "n";
 
       // set cublas to not use tensor core

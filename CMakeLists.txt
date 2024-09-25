@@ -24,11 +24,5 @@ add_executable(cublas_gemm_benchmark
 
 target_link_libraries(cublas_gemm_benchmark -lcublas -lcurand)
 
-# cudnn_conv_benchmark
-add_executable(cudnn_conv_benchmark
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/cuda_conv_bench.cu
-    )
-
-target_link_libraries(cudnn_conv_benchmark -lcublas -lcurand -lcudnn)
 
 

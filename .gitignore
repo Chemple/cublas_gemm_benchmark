@@ -5,7 +5,7 @@ build
 
 # jetbrain
 .idea
-
+.cache
 # clion build
 cmake-build-*
 
